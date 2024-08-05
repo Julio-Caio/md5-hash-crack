@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left:0
+}
+
+header {
+    background-color: rgba(0, 41, 59, 0.753);
+    position: relative;
+    top: 0;
+    margin: 0;
+    justify-content: space-between;
+    left: 0;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3.5em;
+    z-index: 1;
+}
+
+nav {
+    padding: .52em;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.15rem;
+    margin: .15rem
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 0.5em;
+}
+
+nav ul li a {
+    padding: 2.5%;
+    border-radius: .175em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: rgb(248, 45, 45);
+    text-decoration: none;
+    transition: transform 0.3s;
+    justify-content: center;
+}
+
+i {
+    width: 3em;
+    top: 2px;
+    height: 3em;
+    padding: .85rem;
+    margin: .25rem;
+}
